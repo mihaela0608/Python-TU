@@ -14,7 +14,8 @@ class Student(Person):
         self.year = year
     
     def print(self):
-        print(f"Name: {self.firstname} {self.lastname} - {self.nationality} in {self.university} year: {self.year}")
+        super().print()
+        print(f"{self.university} year: {self.year}")
 
 class Lecturer(Person):
     def __init__(self, fname, lname, age, nationality, university, experience):
@@ -22,7 +23,8 @@ class Lecturer(Person):
         self.university = university
         self.experience = experience
     def print(self):
-        print(f"Name: {self.firstname} {self.lastname} - {self.nationality} in {self.university} experience: {self.experience}")
+        super().print()
+        print(f"{self.university} experience: {self.experience}")
 
 for i in range(2):
     name = input("First name: ")
