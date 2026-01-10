@@ -1,0 +1,1 @@
+This folder is only for exam preparation. In every file there is some mistakes. For exercises without mistakes look in Lab or SE folders.
